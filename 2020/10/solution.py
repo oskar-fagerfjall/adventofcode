@@ -1,0 +1,1 @@
+# Seems like it should be enough to sort an array and then step through it.
