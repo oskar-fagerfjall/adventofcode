@@ -1,4 +1,4 @@
-from solution import count_adapters
+from solution import count_adapters, count_adapters2
 
 a = """16
 10
@@ -15,7 +15,10 @@ a = """16
 
 result = count_adapters( a )
 expected = [7, 0, 5]
+print( str(result) + " == " + str(expected))
 
+result = count_adapters2( a )
+expected = 8
 print( str(result) + " == " + str(expected))
 
 b = """28
@@ -53,7 +56,10 @@ b = """28
 
 result = count_adapters( b )
 expected = [22, 0, 10]
+print( str(result) + " == " + str(expected))
 
+result = count_adapters2( b )
+expected = 19208
 print( str(result) + " == " + str(expected))
 
 with open("2020/10/input.txt", "r") as infile:
