@@ -30,3 +30,4 @@ for i in ids[1:]:
     if not i == currentseat + 1:
         print(currentseat + 1) # part 2
     currentseat = i
+    
